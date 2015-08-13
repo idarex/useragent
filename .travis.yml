@@ -6,8 +6,6 @@ php:
 install:
   - composer self-update
   - composer update
-  - ls -l 
-  - whoami
 
 script:
   - phpunit

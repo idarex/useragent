@@ -1,6 +1,6 @@
 <?php
 
-use Sail\UserAgent;
+use Sail\Useragent;
 use Sail\Parser\Simple;
 
 class Sail_UserAgentTest extends PHPUnit_Framework_TestCase
@@ -56,7 +56,7 @@ class Sail_UserAgentTest extends PHPUnit_Framework_TestCase
 
     public function setup()
     {
-        $this->ua = new UserAgent();
+        $this->ua = new Useragent();
         $this->ua->pushParser(new Simple());
     }
 
