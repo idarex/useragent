@@ -1,10 +1,10 @@
-#Sail\UserAgent
+#Sail\Useragent
 This Library detect the browser and all its informations, such as the browser name and version, the OS and the platform. 
 It uses Dependency Injection to load a Parser library, so you can choose the level of details you need from the detection.
 
 ##Parser
-- **Parser\Simple**, it detects the common browsers (Chrome, Safari, Firefox, MSIE), the basic OS (OS X, iOS, Windows, Linux), it detects the device (iPhone,iPad,Android Phone) and the type of useragent (browser, mobile browser, mailer, spider).
-- **Parser\UAS**, it detects all the browser listed in http://user-agent-string.info/list-of-ua using the UAS PHP Api.
+- **Parser\Simple**, it detects the common browsers (**MicroMessenger**, Chrome, Safari, Firefox, MSIE), the basic OS (OS X, iOS, Windows, Linux), it detects the device (iPhone,iPad,Android Phone) and the type of useragent (browser, mobile browser, mailer, spider).
+- **Parser\UAS**, it detects all the browser listed in https://udger.com/resources/ua-list using the UAS PHP Api.
 - **Parser\Quick** (in progress), it detect the browser name and the device computer, iphone, ipad, generic mobile. 
 
 ## Quick Start
@@ -16,8 +16,8 @@ Install with composer:
     },
     "repositories": [
         {
-             "type": "vcs",
-	     "url": "https://github.com/idarex/useragent.git"
+            "type": "vcs",
+            "url": "https://github.com/idarex/useragent.git"
          }
     ]
 }
@@ -30,7 +30,7 @@ create an index.php file:
 
 require "vendor/autoload.php";
 
-use Sail\UserAgent;
+use Sail\Useragent;
 use Sail\Parser\Simple;
 
 // test chrome
