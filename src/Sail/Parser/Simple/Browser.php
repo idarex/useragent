@@ -6,6 +6,7 @@ class Browser
 {
     
     protected static $browser_list = array(
+        'MicroMessenger' => 'MicroMessenger',
         'Chrome'  => 'Chrome',
         'Firefox' => 'Firefox',
         'MSIE'    => 'MSIE',
