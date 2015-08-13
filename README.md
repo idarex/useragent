@@ -13,7 +13,13 @@ Install with composer:
 {
     "require": {
         "sail/useragent": "dev-master"
-    }
+    },
+    "repositories": [
+        {
+             "type": "vcs",
+	     "url": "https://github.com/idarex/useragent.git"
+         }
+    ]
 }
 ```
 
